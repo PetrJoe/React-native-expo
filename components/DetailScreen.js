@@ -5,10 +5,10 @@ const DetailsScreen = ({ navigation }) => {
   return (
     <View>
       <Text>Details Screen</Text>
-      {/* <Button
+      <Button
         title="Go back to Home"
         onPress={() => navigation.goBack()}
-      /> */}
+      />
     </View>
   );
 };
